@@ -1,0 +1,19 @@
+{
+  "name": "cardagainsthumanity",
+  "version": "0.0.1",
+  "description": "Cards Against Humanity Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novandev/CAH-BackEnd.git"
+  },
+  "author": "Novan Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novandev/CAH-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Novandev/CAH-BackEnd#readme"
+}
