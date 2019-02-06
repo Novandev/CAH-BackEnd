@@ -4,7 +4,19 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/CAH', {useNewUrlParser: true});
 
-var cards = require('./fullCardsList')
+// ---------- VARIABLE AND FROM FILE SECTION ---------- //
+
+// All cards from file
+
+const cards = require('./fullCardsList')
+
+const allBlackcards = cards.allCards['blackCards']
+
+const allWhiteCards = cards.allCards['whiteCards']
+
+
+// ---------- SECTION FOR MODEL DEFINITION AND INSTANTIAION ---------- //
+
 // const allBlackCardsModel = mongoose.model('AllBlackCards', { text: String, pick: Number });
 // const allWhiteCardsModel = mongoose.model('AllWhiteCards', { text: String});
 // const baseSetBlackModel = mongoose.model('BaseSetBlackCards', { text: String, pick: Number });
@@ -19,10 +31,19 @@ var cards = require('./fullCardsList')
 // const thirdExpansionBlackModel = mongoose.model('thirdExpansionBlackCards', { text: String, pick: Number });
 // const thirdExpansionWhiteModel = mongoose.model('thirdExpansionWhiteCards', { text: String});
 
-// All cards from file
-const allBlackcards = cards.allCards['blackCards']
+// const fourthExpansionBlackModel = mongoose.model('fourthExpansionBlackCards', { text: String, pick: Number });
+// const fourthExpansionWhiteModel = mongoose.model('fourthExpansionWhiteCards', { text: String});
+//
+// const fifthExpansionBlackModel = mongoose.model('fifthExpansionBlackCards', { text: String, pick: Number });
+// const fifthExpansionWhiteModel = mongoose.model('fifthExpansionWhiteCards', { text: String});
+//
+// const sixthExpansionBlackModel = mongoose.model('sixthExpansionBlackCards', { text: String, pick: Number });
+// const sixthExpansionWhiteModel = mongoose.model('sixthExpansionWhiteCards', { text: String});
 
-const allWhiteCards = cards.allCards['whiteCards']
+
+
+
+// ---------- SECTION FOR SLICING BASED OFF OF CARD SET INDICES ---------- //
 
 // Slices for Base Set
 // const baseSetBlackCards = allBlackcards.slice(0,90)
@@ -40,13 +61,29 @@ const allWhiteCards = cards.allCards['whiteCards']
 
 // const secondExpansionWhite = allWhiteCards.slice(540,615)
 
-// Slices for The Second Expansion
+// Slices for The third Expansion
 // const thirdExpansionBlack = allBlackcards.slice(135,160)
 
 // const thirdExpansionWhite = allWhiteCards.slice(615,690)
 
 
+// Slices for The fourth Expansion
+// const fourthExpansionBlack = allBlackcards.slice(160,190)
 
+// const fourthExpansionWhite = allWhiteCards.slice(690,760)
+
+// Slices for The fifth Expansion
+// const fifthExpansionBlack = allBlackcards.slice(190,215)
+
+// const fifthExpansionWhite = allWhiteCards.slice(760,835)
+
+// Slices for The sixth Expansion
+// const sixthExpansionBlack = allBlackcards.slice(215,240)
+
+// const sixthExpansionWhite = allWhiteCards.slice(835,910)
+
+
+// ---------- SECTION FOR LOADING SLICE DATA INTO MONGODB ---------- //
 
 // creation of all black cards from json file
 // for( let card of allBlackcards){
@@ -160,3 +197,70 @@ const allWhiteCards = cards.allCards['whiteCards']
 //     })
 // }
 
+
+//  creation of fourth expansion black model
+// for( let card of fourthExpansionBlack){
+//     let newCard = new fourthExpansionBlackModel(card)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
+
+// // creation of fourth expansion white cards model
+
+// for( let card of fourthExpansionWhite){
+//     let newCard = new fourthExpansionWhiteModel({text: card})
+//     console.log(newCard)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
+
+// // creation of fifth expansion black model
+// for( let card of fifthExpansionBlack){
+//     let newCard = new fifthExpansionBlackModel(card)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
+
+//  creation of fifth expansion white cards model
+
+// for( let card of fifthExpansionWhite){
+//     let newCard = new fifthExpansionWhiteModel({text: card})
+//     console.log(newCard)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
+
+// // creation of sixth expansion black model
+// for( let card of sixthExpansionBlack){
+//     let newCard = new sixthExpansionBlackModel(card)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
+
+
+// // creation of sixth  expansion white cards model
+
+// for( let card of sixthExpansionWhite){
+//     let newCard = new sixthExpansionWhiteModel({text: card})
+//     console.log(newCard)
+//     newCard.save().then(card =>{
+//         console.log(card)
+//     }).catch(err =>{
+//         console.log(err)
+//     })
+// }
