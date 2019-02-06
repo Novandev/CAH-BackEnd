@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Novandev/CAH-BackEnd/issues"
   },
-  "homepage": "https://github.com/Novandev/CAH-BackEnd#readme"
+  "homepage": "https://github.com/Novandev/CAH-BackEnd#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "socket.io": "^2.2.0"
+  }
 }
