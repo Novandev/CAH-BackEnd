@@ -82,6 +82,39 @@ const allWhiteCards = cards.allCards['whiteCards']
 
 // const sixthExpansionWhite = allWhiteCards.slice(835,910)
 
+const greenboxExpansionBlack = allBlackcards.slice(240,295)
+const greenboxExpansionWhite = allWhiteCards.slice(910,1155)
+
+
+const ninetiesNostalgiaBlack = allBlackcards.slice(295,302)
+const ninetiesNostalgiaWhite = allWhiteCards.slice(1155,1178)
+
+const boxExpansionWhite =  allWhiteCards.slice(1178,1199)
+
+const fantasyPackBlack = allBlackcards.slice(302,308)
+const fantasyPackWhite = allWhiteCards.slice(1199,1225)
+
+const foodPackBlack = allBlackcards.slice(308,314)
+const foodPackWhite = allWhiteCards.slice(1225,1249)
+
+const sciencePackBlack = allBlackcards.slice(314,321)
+const sciencePackWhite = allWhiteCards.slice(1249,1272)
+
+const worldWideWebPackBlack = allBlackcards.slice(321,330)
+const worldWideWebPackWhote = allWhiteCards.slice(1272,1293)
+
+const voteForHillaryPackBlack = allBlackcards.slice(330,332)
+const voteForHillaryPackWhite = allWhiteCards.slice(1293,1304)
+
+const voteForTrumpPackBlack = allBlackcards.slice(332,335)
+const voteForTrumpPackWhite = allWhiteCards.slice(1304,1316)
+
+const trumpSurvivalPackBlack = allBlackcards.slice(335,338)
+const trumpSurvivalPackWhite = allWhiteCards.slice(1316,1338)
+
+const holidayPack2012Black = allBlackcards.slice(338,345)
+const holidayPack2012White = allWhiteCards.slice(1338,1361)
+
 
 // ---------- SECTION FOR LOADING SLICE DATA INTO MONGODB ---------- //
 
