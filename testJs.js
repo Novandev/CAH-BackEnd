@@ -115,6 +115,36 @@ const trumpSurvivalPackWhite = allWhiteCards.slice(1316,1338)
 const holidayPack2012Black = allBlackcards.slice(338,345)
 const holidayPack2012White = allWhiteCards.slice(1338,1361)
 
+const holidayPack2013Black = allBlackcards.slice(345,354)
+const holidayPack2013White = allWhiteCards.slice(1361,1382)
+
+const paxEast2013Black = allBlackcards.slice(354,360)
+const paxEast2013White = allWhiteCards.slice(1382,1406)
+
+const paxPrime2013Black = allBlackcards.slice(360,367)
+const paxPrime2013Black = allWhiteCards.slice(1406,1443)
+
+const paxEast2014Black = allBlackcards.slice(367,372)
+const paxEast2014White = allWhiteCards.slice(1443,1465)
+
+const paxEast2014PanelPackBlack = allBlackcards.slice(372,374)
+const paxEast2014PanelPackWhite = allWhiteCards.slice(1465,1472)
+
+const paxPrime2014PanelPackBlack = allBlackcards.slice(374,379)
+const paxPrime2014PanelPackWhite = allWhiteCards.slice(1472,1478)
+
+const houseOfCardsAgainstHumanityBlack = allBlackcards.slice(382,391)
+const houseOfCardsAgainstHumanityWhite = allWhiteCards.slice(1478,1493)
+
+const rejectPack1Black = allBlackcards.slice(391,399)
+const rejectPack1White = allWhiteCards.slice(1493,1509)
+
+const rejectPack2Black = allBlackcards.slice(399,409)
+const rejectPack2White = allWhiteCards.slice(1509,1533)
+
+const canadianBlack = allBlackcards.slice(409,414)
+const canadianWhite = allWhiteCards.slice(1533,1554)
+
 
 // ---------- SECTION FOR LOADING SLICE DATA INTO MONGODB ---------- //
 
