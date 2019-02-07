@@ -19,6 +19,7 @@ const allWhiteCards = cards.allCards['whiteCards']
 
 // const allBlackCardsModel = mongoose.model('AllBlackCards', { text: String, pick: Number });
 // const allWhiteCardsModel = mongoose.model('AllWhiteCards', { text: String});
+
 // const baseSetBlackModel = mongoose.model('BaseSetBlackCards', { text: String, pick: Number });
 // const baseSetWhiteModel = mongoose.model('BaseSetWhiteCards', { text: String});
 

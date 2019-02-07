@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Novandev/CAH-BackEnd#readme",
   "dependencies": {
     "bcrypt": "^3.0.3",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.9",
     "socket.io": "^2.2.0"
