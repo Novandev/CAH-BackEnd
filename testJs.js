@@ -100,8 +100,8 @@ const allWhiteCards = cards.allCards['whiteCards']
 // const rejectPack2BlackModel = mongoose.model('rejectPack2BlackCards', { text: String, pick: Number });
 // const rejectPack2WhiteModel = mongoose.model('rejectPack2WhiteCards', { text: String});
 
-const canadianBlackModel = mongoose.model('canadianBlackCards', { text: String, pick: Number });
-const canadianWhiteModel = mongoose.model('canadianWhiteCards', { text: String});
+// const canadianBlackModel = mongoose.model('canadianBlackCards', { text: String, pick: Number });
+// const canadianWhiteModel = mongoose.model('canadianWhiteCards', { text: String});
 
 
 // ---------- SECTION FOR SLICING BASED OFF OF CARD SET INDICES ---------- //
@@ -203,8 +203,8 @@ const canadianWhiteModel = mongoose.model('canadianWhiteCards', { text: String})
 // const rejectPack2Black = allBlackcards.slice(399,409)
 // const rejectPack2White = allWhiteCards.slice(1509,1533)
 
-const canadianBlack = allBlackcards.slice(409,414)
-const canadianWhite = allWhiteCards.slice(1533,1554)
+// const canadianBlack = allBlackcards.slice(409,414)
+// const canadianWhite = allWhiteCards.slice(1533,1554)
 
 
 // ---------- SECTION FOR LOADING SLICE DATA INTO MONGODB ---------- //
