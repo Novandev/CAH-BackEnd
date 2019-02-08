@@ -86,7 +86,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/) for details on our code 
 
 ## Authors
 
-* ** Novan Adam s** - *Data Scientist and JS developer* - [Novandev](https://github.com/Novandev)
+* ** Novan Adams ** - * Data Scientist and JS developer * - [Novandev](https://github.com/Novandev)
 
 See also the list of [contributors](https://github.com/Novandev/CAH-BackEnd/contributors) who participated in this project.
 
