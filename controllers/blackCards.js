@@ -233,4 +233,36 @@ router.get('/paxPrime2014PanelPack',(req,res)=>{
     })
 })
 
+router.get('/houseOfCardsAgainstHumanity',(req,res)=>{
+    houseOfCardsAgainstHumanityBlack.find({}).then(cards =>{
+        res.status(200).json(cards)
+    }).catch(err =>{
+        res.status(400).send(err.message)
+    })
+})
+
+router.get('/rejectPack1',(req,res)=>{
+    rejectPack1Black.find({}).then(cards =>{
+        res.status(200).json(cards)
+    }).catch(err =>{
+        res.status(400).send(err.message)
+    })
+})
+
+router.get('/rejectPack2',(req,res)=>{
+    rejectPack2Black.find({}).then(cards =>{
+        res.status(200).json(cards)
+    }).catch(err =>{
+        res.status(400).send(err.message)
+    })
+})
+
+router.get('/canadian',(req,res)=>{
+    canadianBlack.find({}).then(cards =>{
+        res.status(200).json(cards)
+    }).catch(err =>{
+        res.status(400).send(err.message)
+    })
+})
+
 module.exports = router;
