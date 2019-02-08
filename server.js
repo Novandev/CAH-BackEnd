@@ -11,6 +11,6 @@ const server = require('http').Server(app);
 app.use('/blackcards',require('./controllers/blackCards'))
 
 
-server.listen('3000', () => {
+server.listen(process.env.PORT || '3000', () => {
     console.log('Server listening on Port 3000');
 })
