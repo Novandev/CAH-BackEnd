@@ -10,6 +10,8 @@ const server = require('http').Server(app);
 
 app.use('/blackcards',require('./controllers/blackCards'))
 
+app.use('/whitecards',require('./controllers/whiteCards'))
+
 app.get('/',(req,res) =>{
     res.send('Runnign')
 })

@@ -58,6 +58,35 @@ const rejectPack1White = mongoose.model('rejectPack1WhiteCards', { text: String}
 const rejectPack2White = mongoose.model('rejectPack2WhiteCards', { text: String});
 
 const canadianWhite = mongoose.model('canadianWhiteCards', { text: String});
+
 module.exports={
-    allWhiteCards
+    allWhiteCards,
+    baseSetWhite,
+    firstExpansionWhite,
+    secondExpansionWhite,
+    thirdExpansionWhite,
+    fourthExpansionWhite,
+    fifthExpansionWhite,
+    sixthExpansionWhite,
+    greenboxExpansionWhite,
+    ninetiesNostalgiaWhite,
+    boxExpansionWhite,
+    fantasyPackWhite,
+    foodPackWhite,
+    sciencePackWhite,
+    worldWideWebPackWhite,
+    voteForHillaryPackWhite,
+    voteForTrumpPackWhite,
+    trumpSurvivalPackWhite,
+    holidayPack2012White,
+    holidayPack2013White,
+    paxEast2013White,
+    paxPrime2013White,
+    paxEast2014White,
+    paxEast2014PanelPackWhite,
+    paxPrime2014PanelPackWhite,
+    houseOfCardsAgainstHumanityWhite,
+    rejectPack1White,
+    rejectPack2White,
+    canadianWhite
 }
