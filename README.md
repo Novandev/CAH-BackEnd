@@ -39,6 +39,9 @@ As of February 2019 the following packs are served by this API:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+To get started with Using this API please refer to :
+https://github.com/Novandev/CAH-BackEnd/wiki
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
